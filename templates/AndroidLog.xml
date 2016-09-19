@@ -1,9 +1,0 @@
-<templateSet group="AndroidLog">
-  <template name="jlogd" value="JLog.d(TAG, &quot;$METHOD_NAME$: $content$&quot;);" description="JLog.d(TAG, String)" toReformat="true" toShortenFQNames="true">
-    <variable name="METHOD_NAME" expression="methodName()" defaultValue="" alwaysStopAt="true" />
-    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_STATEMENT" value="true" />
-    </context>
-  </template>
-</templateSet>
